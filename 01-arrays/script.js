@@ -2,7 +2,7 @@ const teachers = ["Nathan", "Ed", "Fabio", "Phil", "Carlo", "Lewis", "Luca"]; //
 
 // 0. Per ogni insegnante stampa in console la frase:
 // [Nome insengante] è l'insegnante in posizione [i]
-for (i = 0; i < teachers.length; i++) {
+for (let i = 0; i < teachers.length; i++) {
     let messaggio = `${teachers[i]} è l'insegnante in posizione ${i}`;
     console.log(messaggio);
 }
